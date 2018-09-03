@@ -34,6 +34,7 @@ RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tool
 RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter build-tools-25.0.0
 RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter build-tools-25.0.2
 RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter build-tools-26.0.0
+RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter build-tools-26.0.2
 RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter  build-tools-21.1.2
 RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter  android-19
 RUN ( sleep 5 && while [ 1 ]; do sleep 1; echo y; done ) | /opt/android-sdk/tools/android update sdk --all --no-ui --filter  android-22
