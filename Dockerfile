@@ -5,7 +5,7 @@ MAINTAINER pawel.wiklowski (pawel.wiklowski@gmail.com)
 #Ubuntu setup
 RUN apt-get clean
 RUN apt-get update -y 
-RUN apt-get install -y wget
+RUN apt-get install -y wget ssh-client
 RUN dpkg --add-architecture i386
 RUN apt-get install -y expect
 RUN apt-get update
