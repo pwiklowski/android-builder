@@ -24,8 +24,8 @@ RUN cd /opt/android-sdk
 
 ENV NDK_VERSION="15b"
 RUN wget --output-document=android-ndk.zip https://dl.google.com/android/repository/android-ndk-r${NDK_VERSION}-linux-x86_64.zip
-RUN unzip -qq android-ndk.zip -d /android-ndk-linux
-ENV ANDROID_NDK_HOME /android-ndk-linux
+RUN unzip -qq android-ndk.zip
+ENV ANDROID_NDK_HOME /android-ndk-r${NDK_VERSION}
 
 #Install latest Java JDK&JRE
 RUN apt-get install -y default-jre
